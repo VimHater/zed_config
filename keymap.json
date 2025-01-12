@@ -1,0 +1,9 @@
+
+[
+  {
+    "bindings": {
+      "ctrl-right": "workspace::CloseAllDocks",
+      "ctrl-left": "workspace::ToggleRightDock",
+    }
+  }
+]
