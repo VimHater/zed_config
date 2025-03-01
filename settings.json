@@ -11,6 +11,7 @@
   "format_on_save": "on",
   "formatter": "language_server",
   "assistant": {
+    "dock": "right",
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-3-5-sonnet-latest"
@@ -31,14 +32,14 @@
   "terminal": {
     "font_family": "JetBrainsMonoNL Nerd Font",
     "blinking": "off",
-    "shell": "system",
-    "dock": "right"
+    "shell": null,
+    "dock": "bottom",
   },
   "enable_language_server": true,
   "auto_indent_on_paste": true,
   "vim": {
     "toggle_relative_line_numbers": true,
-    "use_system_clipboard": "on_yank",
+    "use_system_clipboard": "never",
     "custom_digraphs": {}
   },
   "theme": {
