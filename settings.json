@@ -7,18 +7,22 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "icon_theme": "Zed (Default)",
+  "icon_theme": "Colored Zed Icons Theme Light",
   "format_on_save": "on",
+  "formatter": "language_server",
   "assistant": {
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "claude-3-5-sonnet"
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
     },
     "version": "2"
   },
   "show_edit_predictions": false,
   "edit_predictions": {
-    "disabled_globs": [".env", "main.cpp"]
+    "disabled_globs": [
+      ".env",
+      "main.cpp"
+    ]
   },
   "ui_font_size": 18,
   "buffer_font_size": 18,
@@ -34,7 +38,7 @@
   "auto_indent_on_paste": true,
   "vim": {
     "toggle_relative_line_numbers": true,
-    "use_system_clipboard": "always",
+    "use_system_clipboard": "on_yank",
     "custom_digraphs": {}
   },
   "theme": {
@@ -42,9 +46,15 @@
     "light": "One Light",
     "dark": "One Dark Classic Atom"
   },
-  "current_line_highlight": "all",
   "cursor_blink": false,
   "scrollbar": {
     "show": "auto"
-  }
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "hard_tabs": false,
+  "show_completions_on_input": true,
+  "auto_update": false
 }

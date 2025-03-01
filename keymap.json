@@ -3,8 +3,14 @@
     "bindings": {
       "ctrl-right": "workspace::CloseAllDocks",
       "ctrl-left": "workspace::ToggleRightDock",
-      "ctrl+j": ["terminal::SendKeystroke", "down"],
-      "ctrl+k": ["terminal::SendKeystroke", "up"]
+      "ctrl+j": [
+        "terminal::SendKeystroke",
+        "down"
+      ],
+      "ctrl+k": [
+        "terminal::SendKeystroke",
+        "up"
+      ],
     }
   }
 ]
