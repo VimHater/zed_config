@@ -3,6 +3,9 @@
     "bindings": {
       "ctrl-down": "workspace::CloseAllDocks",
       "ctrl-up": "workspace::ToggleBottomDock",
+      "ctrl-j": "editor::ContextMenuNext",
+      "ctrl-k": "editor::ContextMenuPrev",
+      "tab": "menu::Confirm",
       "ctrl-shift-c": "editor::Copy",
       "ctrl-shift-v": "editor::Paste"
     }
